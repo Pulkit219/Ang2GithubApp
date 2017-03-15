@@ -8,9 +8,15 @@ import { GithubService } from '../../services/github.service';
 })
 export class GithubComponent implements OnInit {
 
+  user:any;
+
   constructor(private _githubService:GithubService) { 
 
     console.log("github comp init..");
+    this._githubService.getUser().subscribe(users => {
+      // console.log(users);
+      this.user = users;
+    })
   }
 
   ngOnInit() {

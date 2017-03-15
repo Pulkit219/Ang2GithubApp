@@ -16,7 +16,7 @@ export class GithubService {
 }
 
 getUser(){
-  this._http.get("https://api.github.com/users/"+ this.username)
+ return  this._http.get("https://api.github.com/users/"+ this.username)
   .map(res => res.json());
 }
 
