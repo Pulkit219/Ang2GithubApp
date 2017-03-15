@@ -20,4 +20,9 @@ getUser(){
   .map(res => res.json());
 }
 
+getRepos(){
+ return  this._http.get("https://api.github.com/users/"+ this.username+"/repos")
+  .map(res => res.json());
+}
+
 }
