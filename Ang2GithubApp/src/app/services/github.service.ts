@@ -25,4 +25,8 @@ getRepos(){
   .map(res => res.json());
 }
 
+updateUsername(un:string){
+this.username = un;
+}
+
 }
