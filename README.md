@@ -5,4 +5,4 @@
 <br/>
 <br/>
 
-<img src="https://media.giphy.com/media/3o7btUFySa2F2BgX5e/giphy.gif">
+<img  src="https://gifyu.com/images/Ang2GithubAppPreview.gif">
